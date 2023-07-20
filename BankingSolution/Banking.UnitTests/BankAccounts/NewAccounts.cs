@@ -1,5 +1,4 @@
-﻿using Banking.Domain;
-
+﻿
 namespace Banking.UnitTests.BankAccounts; // File scope name space
 
 public class NewAccounts
@@ -11,6 +10,6 @@ public class NewAccounts
 
         decimal balance = account.GetBalance();
 
-        Assert.Equal(7000, balance);
+        Assert.Equal(5000, balance);
     }
 }

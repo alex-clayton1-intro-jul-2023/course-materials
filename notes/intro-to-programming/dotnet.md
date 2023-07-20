@@ -23,4 +23,10 @@ but in javascript, a function can be assigned to a variable
 	- "Class level variables", "Fields"
 		- Almost always encapsulated as "private"
 - Behavior (methods, properties, constructors)
-	- Usually public things that allow the user of an instance of that type to interact with the state
+	- Usually public things that allow the user of an instance of that type to interact with the state'
+
+
+- Can create global using statement for entire file.
+
+- *Guard* naming convention just means that you are taking a look at smthng
+- 

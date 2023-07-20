@@ -1,6 +1,4 @@
 ﻿
-using Banking.Domain;
-
 namespace Banking.UnitTests.BankAccounts;
 
 public class MakingDeposits
