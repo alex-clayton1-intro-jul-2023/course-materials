@@ -8,6 +8,6 @@ Git setup:
 		- `git add .` to add all stuff into it
 		- `git commit -m "Initial"` To create a commit of it
 		- `gh repo create` and follow that
-			- Chose local repo
+			- Chose local repo (press enter or enter the address of the folder)
 			- Repository name: `alex-clayton1-intro-jul-2023/fullstack`
 	- You can automatically commit within VSCode. #vs 
