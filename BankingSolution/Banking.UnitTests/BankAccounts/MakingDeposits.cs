@@ -7,7 +7,9 @@ public class MakingDeposits
     [Fact]
     public void DepositsIncreaseTheBalance() 
     {
-        var account = new BankAccount();
+        // Given - arrange
+        // This mock is a dummy thing that returns the basic thing each time without having to declare a dummy.
+        var account = new BankAccount(new Mock<ICanCalculateBonusesForBankAccountDeposits>().Object);
         var openingBalance = account.GetBalance();
         var amountToDeposit = 100.23m;
 
@@ -22,4 +24,13 @@ public class MakingDeposits
     }
       
 
+}
+
+
+public class DummyBonusCalculator : ICanCalculateBonusesForBankAccountDeposits
+{
+    public decimal CalculateBonusForDeposit(decimal balance, decimal amountToDeposit)
+    {
+        return 0;
+    }
 }

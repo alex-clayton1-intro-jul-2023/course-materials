@@ -30,3 +30,18 @@ but in javascript, a function can be assigned to a variable
 
 - *Guard* naming convention just means that you are taking a look at smthng
 - 
+
+
+
+
+`          /*
+             * // This code is a little too coupled. The bonus calculator will always changed, so the deposit code is susceptible to changes
+             * This is removed. You should not be creating a new variable. There is something you should call that is independent.
+             * Want to rely on a contract instead of a specific implmenetation!!!!!!!!
+             * Just want to ask something what the bonus will be, then you want to add that. Want to use interface segregation principle
+             * var bonusCalculator = new StandardBonusCalculator(); 
+             * var bonus = bonusCalculator.CalculateBonusForDeposit(_balance, amountToDeposit);
+             */`
+             
+             `
+             
