@@ -44,4 +44,14 @@ but in javascript, a function can be assigned to a variable
              */`
              
              `
-             
+
+
+one assignment - sending email answering questions for him
+
+project for us, whatever is most beneficial
+- Look over questions we had this week, then write down questions for jeff
+- Spend rest of day practicing this stuff
+- Send him an email
+![[Pasted image 20230721151644.png]]
+
+-
